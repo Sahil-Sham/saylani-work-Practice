@@ -1,7 +1,10 @@
-void main (){
-numberTable(4);
-numberTable(3);
-numberTable(2);
+void main(){
+  List <int> numbers=[2,3,4,5,10,14];
+for (var i in numbers) {
+  numberTable(i);
+  
+}
+
 }
 numberTable(int n ){
   for (var i = 1; i < 10; i++) {
