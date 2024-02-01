@@ -3,8 +3,8 @@ void main(){
 }
 
 
-onlinePlatform({String? link} ){
+onlinePlatform({String? flutterappbananewalabhje} ){
+String officer =flutterappbananewalabhje!;
 
-String? ui = link ?? "NO linkin Account";
-print(ui);
+print(officer);
 }
