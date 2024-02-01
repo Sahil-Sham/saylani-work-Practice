@@ -1,11 +1,10 @@
 void main(){
-  onlinePlatform(name: 'Sahil',link: "facebook.com");
+  onlinePlatform();
 }
 
 
-onlinePlatform({required String name,String? link} ){
-  String a = name;
-  print(a);
-String? ui = link ;
+onlinePlatform({String? link} ){
+
+String? ui = link ?? "NO linkin Account";
 print(ui);
 }
