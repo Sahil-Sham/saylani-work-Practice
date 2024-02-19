@@ -1,15 +1,24 @@
 void main(){
-  animal obj=animal();
-  obj.name="dollar";
-obj.sleeping();
-}
-class animal {
-  String name="dog";
+  print("========");
+  Student obj1= Student();
+  obj1.name="sahil";
+  obj1.studentInfor(true);
+  print("========");
+   Student obj2= Student();
+  obj2.name="waqar";
+  obj2.studentInfor(false);
 
-eat(){
-
 }
-sleeping(){
-  print("$name is sleeping");
+class Student {
+  String? name;
+
+
+studentInfor(bool projectsubmited){
+if (projectsubmited) {
+  print("$name  is projct submitted");
+} else {
+  print("$name  is not submitted");
+  
+}
 }
 }
