@@ -13,18 +13,37 @@
 //   }
 // }
 
-import 'dart:io';
+// import 'dart:io';
+
+// void main(){
+// var abc =calculateAverage();
+// print(abc);
+// }
+// calculateAverage(){
+//   stdout.write("Enter the score:");
+//   String score=stdin.readLineSync()!;
+
+//   List<int> number=score.split(" ").map((String) => int.parse(String)).toList();
+//   for (var i = 0; i < number.length; i++) {
+//   }
+// return number;
+// }
 
 void main(){
-var abc =calculateAverage();
-print(abc);
+  List<int> score=[85, 90, 75, 80, 95];
+int sum=calculateSum(score);
+print("The total sum of: $sum");
 }
-calculateAverage(){
-  stdout.write("Enter the score:");
-  String score=stdin.readLineSync()!;
+calculateSum(List<int> numbers){
+ var sum=0;
+ for (var number in numbers) {
+   sum +=number;
+ }
+ return sum;
+      
+    }
 
-  List<int> number=score.split(" ").map((String) => int.parse(String)).toList();
-  for (var i = 0; i < number.length; i++) {
-  }
-return number;
-}
+  
+
+  
+
