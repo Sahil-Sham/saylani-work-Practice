@@ -29,19 +29,25 @@
 // return number;
 // }
 
-void main(){
-  List<int> score=[85, 90, 75, 80, 95];
-int sum=calculateSum(score);
-print("The total sum of: $sum");
-}
-calculateSum(List<int> numbers){
- var sum=0;
- for (var number in numbers) {
-   sum +=number;
- }
- return sum;
+// void main(){
+//   List<int> score=[85, 90, 75, 80, 95];
+// int sum=calculateSum(score);
+// print("The total sum of: $sum");
+// }
+// calculateSum(List<int> numbers){
+//  var sum=0;
+//  for (var number in numbers) {
+//    sum +=number;
+//     return sum;
+//  }
+
       
-    }
+//     }
+
+void main(){
+  Map<String,dynamic> student={"name": "sahil","age":25,"grade":"A"};
+  print(student);
+}
 
   
 
