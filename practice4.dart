@@ -11,8 +11,25 @@
   
 // }
 
+// void main(){
+//   Map<String,dynamic> student={"name":"suhan","age":20};
+//   print("Name:${student["sahil"]}");
+//   print("age:${student["age"]}");
+// }
+
+
 void main(){
-  Map<String,dynamic> student={"name":"suhan","age":20};
-  print("Name:${student["sahil"]}");
-  print("age:${student["age"]}");
+printEvenNumber();
+}
+printEvenNumber(){
+  List<dynamic> numbers=[1,2,3,4,5];
+for (var i = 0; i < numbers.length; i++) {
+  int currentnumber=numbers[i];
+  if (currentnumber %2==0) {
+  print("This is EvenNumber :$currentnumber");
+  }
+  else{
+    print("This is Not Valid Number:$currentnumber");
+  }
+}
 }
