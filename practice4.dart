@@ -18,18 +18,37 @@
 // }
 
 
-void main(){
-printEvenNumber();
+// void main(){
+// printEvenNumber();
+// }
+// printEvenNumber(){
+//   List<dynamic> numbers=[1,2,3,4,5];
+// for (var i = 0; i < numbers.length; i++) {
+//   int currentnumber=numbers[i];
+//   if (currentnumber %2==0) {
+//   print("This is EvenNumber :$currentnumber");
+//   }
+//   else{
+//     print("This is Not Valid Number:$currentnumber");
+//   }
+// }
+// }
+
+void main() {
+  List<int> originalList = [1, 2, 3, 4, 5];
+
+  List<int> doubledList = doubleList(originalList);
+
+  print("Original List: $originalList");
+  print("Doubled List: $doubledList");
 }
-printEvenNumber(){
-  List<dynamic> numbers=[1,2,3,4,5];
-for (var i = 0; i < numbers.length; i++) {
-  int currentnumber=numbers[i];
-  if (currentnumber %2==0) {
-  print("This is EvenNumber :$currentnumber");
+
+List<int> doubleList(List<int> inputList) {
+  List<int> result = [];
+
+  for (int number in inputList) {
+    result.add(number * 2);
   }
-  else{
-    print("This is Not Valid Number:$currentnumber");
-  }
-}
+
+  return result;
 }
