@@ -22,14 +22,18 @@
 // }
 // }
 // }
-void main(){
-for (var details in detail.values) {
-  print(details);
-}
-}
-enum detail{
- my,
- name,
- sahil
+// void main(){
+// for (var details in detail.values) {
+//   print(details);
+// }
+// }
+// enum detail{
+//  my,
+//  name,
+//  sahil
 
+// }
+void main(){
+  var name="sahil";
+  print(name);
 }
