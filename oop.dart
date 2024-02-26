@@ -33,7 +33,11 @@
 //  sahil
 
 // }
-void main(){
-  var name="sahil";
-  print(name);
-}
+// void main(){
+//   var name="sahil";
+//   print(name);
+// }
+ void main(){
+  List<String> studentName=["sahil","babar","waqar","Sohaib"];
+  print(studentName.last);
+ }
