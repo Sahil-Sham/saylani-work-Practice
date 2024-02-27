@@ -41,7 +41,15 @@
 //   List<String> studentName=["sahil","babar","waqar","Sohaib"];
 //   print(studentName.last);
 //  }
+// void main(){
+//   Map<String,dynamic> studentName={"name":"sahil","age":21};
+//   print(studentName.keys);
+// }
 void main(){
-  Map<String,dynamic> studentName={"name":"sahil","age":21};
-  print(studentName.keys);
+  var age=19;
+  if (age >18) {
+    print("You are eligible for vote");
+  } else {
+    print("You are Not eligible ");
+  }
 }
