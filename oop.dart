@@ -37,7 +37,11 @@
 //   var name="sahil";
 //   print(name);
 // }
- void main(){
-  List<String> studentName=["sahil","babar","waqar","Sohaib"];
-  print(studentName.last);
- }
+//  void main(){
+//   List<String> studentName=["sahil","babar","waqar","Sohaib"];
+//   print(studentName.last);
+//  }
+void main(){
+  Map<String,dynamic> studentName={"name":"sahil","age":21};
+  print(studentName.keys);
+}
