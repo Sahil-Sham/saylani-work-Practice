@@ -9,18 +9,33 @@
 // }
 
 import 'dart:io';
+import 'dart:math';
 
+// void main(){
+//  double ractangle= calculateArea();
+//   print("This Area of the ractangle:$ractangle");
+// }
+// calculateArea(){
+//  stdout.write("Enter the Lenght:");
+//  double lenght=double.parse(stdin.readLineSync()!);
+//  stdout.write("Enter the widht:");
+//  double widht=double.parse(stdin.readLineSync()!);
+
+//  return lenght*widht;
+// }
 void main(){
- int ractangle= calculateArea();
-  print("This is Area of ractangle:$ractangle");
+List<int> sum=calculateEven();
+print("Even Number:$sum+1");
 }
-calculateArea(){
- stdout.write("Enter the Lenght:");
- int lenght=int.parse(stdin.readLineSync()!);
- stdout.write("Enter the widht:");
- int widht=int.parse(stdin.readLineSync()!);
-
- return lenght*widht;
-
-
+calculateEven(){
+  stdout.write("Enter the  Number:");
+  String even=stdin.readLineSync()!;
+  List<int> numbers=even.split(" ").map((String) => int.parse(String)).toList();
+  List<int> value=[];
+  for (int  number in numbers) {
+    if (number % 2==0) {
+     value.add(number);
+    }
+  }
+  return value;
 }
