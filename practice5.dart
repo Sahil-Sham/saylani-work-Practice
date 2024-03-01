@@ -70,9 +70,13 @@
 
 //   return combinedMap;
 // }
-void main(){
-List<String> name=["sahil","suhan","babar","cheeku","waqar","mudassir"];
-name.replaceRange(1, 4,["bilal"]);
-print(name);
-}
+// void main(){
+// List<String> name=["sahil","suhan","babar","cheeku","waqar","mudassir"];
+// name.replaceRange(1, 4,["bilal"]);
+// print(name);
+// }
 
+void main (){
+  Map<String,int> details={"Babar":26,"Suhan":21,"Cheeku":20,"Sahil":21};
+print(details.values);
+}
