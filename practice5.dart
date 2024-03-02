@@ -81,9 +81,13 @@
 // print(details.values);
 // }
 
+// void main(){
+//   List<String> name=["sahil","suhan","babar","cheeku","waqar","mudassir"];
+//   for (var i = 0; i < name.length; i++) {
+//     print(name[i]);
+//   }
+// }
 void main(){
-  List<String> name=["sahil","suhan","babar","cheeku","waqar","mudassir"];
-  for (var i = 0; i < name.length; i++) {
-    print(name[i]);
-  }
+  String name="babar";
+  print(name);
 }
