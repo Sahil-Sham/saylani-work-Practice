@@ -76,7 +76,14 @@
 // print(name);
 // }
 
-void main (){
-  Map<String,int> details={"Babar":26,"Suhan":21,"Cheeku":20,"Sahil":21};
-print(details.values);
+// void main (){
+//   Map<String,int> details={"Babar":26,"Suhan":21,"Cheeku":20,"Sahil":21};
+// print(details.values);
+// }
+
+void main(){
+  List<String> name=["sahil","suhan","babar","cheeku","waqar","mudassir"];
+  for (var i = 0; i < name.length; i++) {
+    print(name[i]);
+  }
 }
