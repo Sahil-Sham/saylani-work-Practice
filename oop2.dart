@@ -4,13 +4,21 @@ Gari mehran1=Gari();
 mehran1.starthojao();
 print(mehran1.name);
 // object 2
-mehran1.name="G Wagon";
-mehran1.starthojao();
-print(mehran1.name);
+Gari mehran2=Gari(
+  name: "mercedes"
+);
+mehran2.starthojao();
+print(mehran2.name);
+
+Gari bus=Gari.engineKsth(engineCC: 5000);
+print(bus.engineCC);
 }
 class Gari{
-  String name = "Mehran";
+  String name="";
+  int engineCC=9000;
+  Gari({this.name="fortuner"});
+  Gari.engineKsth({this.engineCC=3000});
   starthojao(){
-    print("Mai khud start hojao gi:$name");
+    print("Mai khud start hojao gi:");
   }
 }
